@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { StackComponent } from './components/stack/stack.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { OverflowComponent } from './components/overflow/overflow.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     StackComponent,
-    FooterComponent
+    FooterComponent,
+    OverflowComponent
   ],
   imports: [
     BrowserModule
