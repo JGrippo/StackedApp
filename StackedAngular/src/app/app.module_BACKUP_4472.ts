@@ -2,8 +2,11 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+<<<<<<< HEAD
 import { FooterComponent } from './components/footer/footer.component';
+=======
 import { HeaderComponent } from './header/header.component';
+>>>>>>> master
 import { StackComponent } from './stack/stack.component';
 
 @NgModule({
