@@ -7,8 +7,9 @@ import { HeaderComponent } from './components/header/header.component';
 import { StackComponent } from './components/stack/stack.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { AutocompleteComponent } from './components/autocomplete/autocomplete.component';
-import { MatAutocompleteModule, MatInputModule, MatFormFieldModule } from '@angular/material';
+import { MatAutocompleteModule, MatInputModule, MatFormFieldModule, MatButton } from '@angular/material';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
+import { MatMenuModule, MatButtonModule, MatIconModule} from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,10 @@ import { ReactiveFormsModule, FormsModule } from '@angular/forms';
     MatFormFieldModule,
     ReactiveFormsModule,
     MatAutocompleteModule,
-    FormsModule
+    FormsModule,
+    MatMenuModule,
+    MatButtonModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
