@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { StackComponent } from './stack/stack.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    StackComponent
+    StackComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule
