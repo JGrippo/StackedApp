@@ -7,6 +7,9 @@ import { HeaderComponent } from './components/header/header.component';
 import { StackComponent } from './components/stack/stack.component';
 import { FooterComponent } from './components/footer/footer.component';
 
+import { MatCardModule } from '@angular/material/card';  //Angular matrial 
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations'; //Angular material 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,9 +19,11 @@ import { FooterComponent } from './components/footer/footer.component';
     FooterComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule, MatCardModule, BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+

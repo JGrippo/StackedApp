@@ -11,6 +11,9 @@ import { HeaderComponent } from './components/header/header.component';
   <!-- routes will be rendered here
   <router-outlet></router-outlet>-->
 
+  <!--Cards-->
+  <app-overflow></app-overflow>
+
   <!-- footer -->
   <app-footer></app-footer>
 `,
