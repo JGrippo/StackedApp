@@ -10,6 +10,9 @@ import { AutocompleteComponent } from './components/autocomplete/autocomplete.co
 import { MatAutocompleteModule, MatInputModule, MatFormFieldModule } from '@angular/material';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 
+import { MatCardModule } from '@angular/material/card';  //Angular matrial 
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations'; //Angular material 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +23,9 @@ import { ReactiveFormsModule, FormsModule } from '@angular/forms';
     AutocompleteComponent
     ],
   imports: [
-    BrowserModule,
+    BrowserModule, 
+    MatCardModule, 
+    BrowserAnimationsModule,
     MatInputModule,
     MatFormFieldModule,
     ReactiveFormsModule,
@@ -31,3 +36,5 @@ import { ReactiveFormsModule, FormsModule } from '@angular/forms';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+
