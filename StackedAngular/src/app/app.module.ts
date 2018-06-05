@@ -2,10 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-<<<<<<< HEAD
-import { HeaderComponent } from './header/header.component';
-=======
->>>>>>> master
+import { HeaderComponent } from './components/header/header.component';
 import { StackComponent } from './components/stack/stack.component';
 import { FooterComponent } from './components/footer/footer.component';
 
