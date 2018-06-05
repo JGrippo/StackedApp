@@ -8,8 +8,8 @@ import { HeaderComponent } from './components/header/header.component';
   <!-- header  -->
   <app-header></app-header>
 
-  <!-- routes will be rendered here
-  <router-outlet></router-outlet>-->
+  <!-- routes will be rendered here -->
+  <app-stack></app-stack>
 
   <!-- footer -->
   <app-footer></app-footer>
