@@ -6,7 +6,6 @@ import { OverflowComponent } from './components/overflow/overflow.component';
 import { HeaderComponent } from './components/header/header.component';
 import { StackComponent } from './components/stack/stack.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { OverflowComponent } from './components/overflow/overflow.component';
 
 @NgModule({
   declarations: [
@@ -14,8 +13,7 @@ import { OverflowComponent } from './components/overflow/overflow.component';
     OverflowComponent,
     HeaderComponent,
     StackComponent,
-    FooterComponent,
-    OverflowComponent
+    FooterComponent
   ],
   imports: [
     BrowserModule
