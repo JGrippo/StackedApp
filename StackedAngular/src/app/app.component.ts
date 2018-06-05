@@ -4,16 +4,7 @@ import { HeaderComponent } from './components/header/header.component';
 
 @Component({
   selector: 'app-root',
-  template: `
-  <!-- header  -->
-  <app-header></app-header>
-
-  <!-- routes will be rendered here
-  <router-outlet></router-outlet>-->
-
-  <!-- footer -->
-  <app-footer></app-footer>
-`,
+  templateUrl: 'app.component.html',
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
