@@ -6,10 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./stack.component.css']
 })
 export class StackComponent implements OnInit {
-
+  message = 'click';
   constructor() { }
 
   ngOnInit() {
+  }
+
+  clicked() {
+    this.message = 'stop';
   }
 
 }
