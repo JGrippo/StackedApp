@@ -17,6 +17,12 @@ connections.config
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
+#TOWER P4MERGE Tool
+*_BACKUP_*
+*_BASE_*
+*_LOCAL_*
+*_REMOTE_*
+
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
